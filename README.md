@@ -19,4 +19,4 @@ Si el editor se ve asi:
 ![3](https://github.com/user-attachments/assets/f2336659-1235-456e-87f8-b9bbc73c25be)
 2) arrastra la escena con la que estamos trabajando, a la jerarquia.
 
-3) por ultimo elimina la escena que estaba antes "Untitled Scene" para que no se laguee.
+3) por ultimo elimina la escena que estaba antes "Untitled" para que no se laguee.
