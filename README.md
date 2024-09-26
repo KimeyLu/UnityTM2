@@ -1,7 +1,7 @@
 # UnityTM2
 Repositorio para el proyecto de Unity KeyTris de la materia Tecno Multimedia 2
 
-Si vas a actualizar un repositorio en GitHub asegurate de que el contenido de la carpeta se vea asi, para que el archivo pese menos:
+Si vas a actualizar un repositorio en GitHub para que el archivo pese menos asegurate de eliminar las carpetas/archivos "Logs", "obj", "Temp", "Build", "Library", ".sln", "Assembly-Csharp" (El editor reinstalará automaticamente todas esos archivos), asegurate de que el contenido de la carpeta del proyecto se vea asi:
 ![1](https://github.com/user-attachments/assets/c9ae71b9-c8ff-47aa-8bd0-2bb7a103da90)
 
 Para abrir en el editor,
