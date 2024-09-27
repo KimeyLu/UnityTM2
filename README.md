@@ -9,6 +9,7 @@ Fuente: https://www.youtube.com/watch?v=ZspawIbFFAg
 
 Para abrir en el editor,
 En Unity Hub apretar "Add" y seleccionar la carpeta en donde se encuentran todos los archivos del proyecto.
+
 ![4](https://github.com/user-attachments/assets/dfa58258-2737-4ae8-b204-4151011a801a)
 
 Si el editor se ve asi:
