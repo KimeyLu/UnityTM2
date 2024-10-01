@@ -15,10 +15,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
-    [Header("References")]
+    [Header("References")] //este atributo [Header("Texto")] solo sirve para ordenar en listas las variables publicas que vamos a ver en el inspector del editor de Unity 
     public Rigidbody rb;
-    public Transform head;
-    public Camera cameraa;
+    public Transform head; //esta variable solo tomara en cuenta la posicion rotacion y escala del gameobject "Head"
+    public Camera camara;
 
 
     [Header("Configurations")]
@@ -33,7 +33,8 @@ public class PlayerController : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        //  Hide and lock the mouse cursor
+        //  Oculta la flecha del mouse usando el método Cursor de la clase UnityEngine.
+        // https://docs.unity3d.com/ScriptReference/Cursor.html
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
@@ -47,7 +48,7 @@ public class PlayerController : MonoBehaviour {
         transform.Rotate(Vector3.up * Input.GetAxis("Mouse X") * 2f);   // Adjust the multiplier for different rotation speed
 
         newVelocity = Vector3.up * rb.velocity.y;
-        float speed = Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed;
+        float speed = Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed;   
         newVelocity.x = Input.GetAxis("Horizontal") * speed;
         newVelocity.z = Input.GetAxis("Vertical") * speed;
 
